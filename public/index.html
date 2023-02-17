@@ -258,17 +258,17 @@
         <section class="gallery-area bg-[url('pic/Gallery-bg.png')] bg-cover bg-center bg-no-repeat">
             <div class="gallery">
                 <div class="container mx-auto">
-                    <div class="row grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 py-24 gap-y-5">
+                    <div class="row grid justify-items-center sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 py-24 gap-y-5">
                         <div class="md:col-span-2 xl:col-span-3 text-center">
                             <h2 class="text-5xl font-bold text-white">Gallery</h2>
                             <p class="text-lg py-10 text-white">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.Sed ut perspiciatis unde omnis iste natus error sit <br> voluptatem accusantium doloremque laudantium.</p>
                         </div>
-                        <div class="col mx-auto"><img src="pic/Gallery-1.png" alt=""></div>                        
-                        <div class="col mx-auto"><img src="pic/Gallery-2.png" alt=""></div>                        
-                        <div class="col mx-auto"><img src="pic/Gallery-3.png" alt=""></div>                        
-                        <div class="col mx-auto"><img src="pic/Gallery-4.png" alt=""></div>                        
-                        <div class="col mx-auto"><img src="pic/Gallery-5.png" alt=""></div>                        
-                        <div class="col mx-auto"><img src="pic/Gallery-6.png" alt=""></div>                        
+                        <div class="col"><img src="pic/Gallery-1.png" alt=""></div>                        
+                        <div class="col"><img src="pic/Gallery-2.png" alt=""></div>                        
+                        <div class="col"><img src="pic/Gallery-3.png" alt=""></div>                        
+                        <div class="col"><img src="pic/Gallery-4.png" alt=""></div>                        
+                        <div class="col"><img src="pic/Gallery-5.png" alt=""></div>                        
+                        <div class="col"><img src="pic/Gallery-6.png" alt=""></div>                        
                     </div>
                 </div>
             </div>
@@ -335,8 +335,8 @@
                 <div class="container mx-auto">
                     <div class="row">
                         <div class="text-center py-20">
-                            <h2 class="xl:float-left text-3xl font-bold my-10 xl:my-0">New Patient Special Offer Complimentary Consultation </h2>                            
-                            <a href="#" class="xl:float-right text-xl font-bold uppercase text-white bg-[#1a9bdc] shadow-xl px-5 py-2 rounded-full">Read more</a>                            
+                            <h2 class="xl:float-left xl:ml-32 text-3xl font-bold my-10 xl:my-0">New Patient Special Offer Complimentary Consultation </h2>                            
+                            <a href="#" class="xl:float-right xl:mr-32 text-xl font-bold uppercase text-white bg-[#1a9bdc] shadow-xl px-5 py-2 rounded-full">Read more</a>                            
                         </div>
                     </div>
                 </div>
@@ -346,14 +346,71 @@
 
     <!-- footer section 
     ------------------------------------------------------------->
-    <footer class="header-area">
-        <div class="header">
+    <footer class="footer-area">
+        <div class="footer-top bg-[#171717]">
             <div class="container mx-auto">
-                <div class="row">
-                    <div class="col-xl-12">
+                <div class="row grid justify-items-center sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4 py-20 gap-10 text-[#8d8d8d]">
+                    <div class="col grid gap-10">
+                        <h2 class="text-white text-2xl font-bold">Get in Touch</h2>
+                        <div class="row flex items-center gap-10">
+                            <i class="fa-regular fa-envelope text-4xl"></i>
+                            <p class="text-lg">free@psdfreebies.com <br>
+                                free@psdfreebies.com</p>
+                        </div>
+                        <div class="row flex items-center gap-10">
+                            <i class="fa-solid fa-mobile-screen text-4xl"></i>
+                            <p class="text-lg">+123 456 7890 <br>
+                                +123 456 7890</p>
+                        </div>
+                        <div class="row flex items-center gap-10">
+                            <i class="fa-solid fa-map-location text-4xl"></i>
+                            <p class="text-lg">123, Main Road, New City, <br>
+                                My Country 123456</p>
+                        </div>
+                        <div class="icon flex gap-7 text-2xl text-white">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-google-plus-g"></i>
+                            <i class="fa-brands fa-vk"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
                     </div>
-                </div>
+                    <div class="col">
+                        <h2 class="text-white text-2xl font-bold mb-10">Quick Links</h2>
+                        <ul class="list-disc grid gap-5">
+                            <li>About us</li>
+                            <li>Blog</li>
+                            <li>Contact us</li>
+                            <li>Faq</li>
+                            <li>Insurance</li>
+                            <li>Contact us</li>                            
+                        </ul>                        
+                    </div>
+                    <div class="col">
+                        <h2 class="text-white text-2xl font-bold mb-10">Our Services</h2>
+                        <ul class="list-disc grid gap-5">
+                            <li>Work Injuries</li>
+                            <li>Sport Injuries</li>
+                            <li>Cold Laser Therapy</li>
+                            <li>Massage Therapy</li>
+                            <li>Physiotherapy</li>                            
+                            <li>Chiropratic Therapy</li>                            
+                        </ul>                        
+                    </div>
+                    <div class="col">
+                        <h2 class="text-white text-2xl font-bold mb-10">Enquiry Form</h2>
+                        <form action="">
+                            <input type="text" class="py-5 bg-transparent border-b-2 block" placeholder="Name">
+                            <input type="number" class="py-5 bg-transparent border-b-2 block" placeholder="Phone">
+                            <textarea name="" id="" class="bg-transparent border-b-2 block" placeholder="Message" cols="20" rows="5"></textarea>                            
+                            <button type="submit" class="text-lg font-bold uppercase text-white bg-[#1a9bdc] shadow-xl px-10 py-2 mt-5 rounded-full block">submit</button>
+                        </form>                        
+                    </div>                  
+                </div>                
             </div>
+        </div>
+        <div class="footer-bottom bg-[#1a1a1a] text-center">
+            <p class="py-16 text-[#615555]">Copyright © 2017. PSDFreebies.com  | Best PSD Template for freelancer and agencies </p>
         </div>
     </footer>
 

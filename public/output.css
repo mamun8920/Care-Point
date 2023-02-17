@@ -563,6 +563,10 @@ video {
   grid-column: span 1 / span 1;
 }
 
+.col-span-10 {
+  grid-column: span 10 / span 10;
+}
+
 .col-start-auto {
   grid-column-start: auto;
 }
@@ -585,6 +589,10 @@ video {
 
 .float-left {
   float: left;
+}
+
+.m-auto {
+  margin: auto;
 }
 
 .mx-4 {
@@ -642,6 +650,30 @@ video {
   margin-top: 2.5rem;
 }
 
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-32 {
+  margin-left: 8rem;
+}
+
+.mr-32 {
+  margin-right: 8rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .block {
   display: block;
 }
@@ -660,6 +692,10 @@ video {
 
 .flex-none {
   flex: none;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .auto-cols-max {
@@ -698,6 +734,10 @@ video {
   justify-content: space-evenly;
 }
 
+.justify-items-center {
+  justify-items: center;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -722,16 +762,44 @@ video {
   gap: 5rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
+}
+
 .gap-y-5 {
   row-gap: 1.25rem;
+}
+
+.gap-y-20 {
+  row-gap: 5rem;
 }
 
 .rounded-full {
   border-radius: 9999px;
 }
 
+.border-0 {
+  border-width: 0px;
+}
+
+.border {
+  border-width: 1px;
+}
+
 .border-b-4 {
   border-bottom-width: 4px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
 }
 
 .bg-\[\#1a9bdc\] {
@@ -771,6 +839,24 @@ video {
 .bg-\[\#e2e2e2\] {
   --tw-bg-opacity: 1;
   background-color: rgb(226 226 226 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#1a1a1a\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 26 26 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#171717\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
 }
 
 .bg-\[url\(\'pic\/header-bg\.png\'\)\] {
@@ -978,6 +1064,24 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\] {
+  color: ;
+}
+
+.text-\[615555\] {
+  color: 615555;
+}
+
+.text-\[\#615555\] {
+  --tw-text-opacity: 1;
+  color: rgb(97 85 85 / var(--tw-text-opacity));
+}
+
+.text-\[\#8d8d8d\] {
+  --tw-text-opacity: 1;
+  color: rgb(141 141 141 / var(--tw-text-opacity));
+}
+
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -1103,6 +1207,18 @@ video {
   .xl\:my-0 {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+
+  .xl\:ml-32 {
+    margin-left: 8rem;
+  }
+
+  .xl\:mr-32 {
+    margin-right: 8rem;
+  }
+
+  .xl\:ml-3 {
+    margin-left: 0.75rem;
   }
 
   .xl\:flex {
